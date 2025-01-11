@@ -2,8 +2,6 @@
 
 🚀 Este script foi desenvolvido para organizar e categorizar e-mails recebidos na sua conta do Gmail, aplicando marcadores com base em critérios predefinidos, como o endereço de remetente. Ele cria automaticamente os marcadores necessários e arquiva e-mails para manter sua caixa de entrada limpa. Notificações sobre a execução do script são enviadas para o endereço de e-mail do administrador. 📧✨📋
 
----
-
 ## Funcionalidades
 
 ✨ **Categorização de E-mails**: Categoriza automaticamente e-mails com base nos endereços dos remetentes.
@@ -44,7 +42,6 @@ const emailFilters = {
   }
 };
 ```
----
 
 #### Definir E-mail do Administrador
 
@@ -53,7 +50,6 @@ Substitua `seu-email@exemplo.com` na variável `adminEmail` pelo seu endereço d
 ```javascript
 const adminEmail = 'seu-email@exemplo.com';
 ```
----
 
 #### Criar Acionador
 
@@ -67,7 +63,6 @@ function createTrigger() {
     .create();
 }
 ```
----
 
 ## Como Automatizar no Apps Script
 
